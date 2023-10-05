@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tip calculator</title>
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/710db88ed9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="backgroundSlide">
+        <h1>TIP CALCULATOR</h1>
+    </div>
+    
+    <form id="calculatorForm">
+        <div class="row">
+            <label for="diners">Enter the number of guests:</label>
+            <input type="number" id="diners" name="diners"><br><br>
+        </div>
+        <div class="row">
+        <label for="totalAccount">Enter the total price to pay in €:</label>
+        <input type="number" id="totalAccount" name="totalAccount" step="0.01" min="0" required><br><br>
+        </div>
+        <div class="row">
+        <label for="serviceQualification">Rate the service selecting a option:</label>
+            <select id="serviceQualification" name="serviceQualification" required>
+                <option value="brilliant">Brilliant</option>
+                <option value="acceptable">Acceptable</option>
+                <option value="horrible">Horrible</option>
+            </select><br><br>
+        </div>
+        <div class="row">
+            <button type="button" onclick="calculatorSubmit()"  >Calculate Tip</button>
+        </div>
+    </form>
+        <div class="row2">
+            <p id="errorTotalAccount"></p>
+        </div>
+        <div class="row2">
+            <h2>Tip per person:</h2>
+            <p id="tipResult"></p>
+        </div>
+    </body>
+    <footer>
+        <div class="footer-logo">
+          <a href="home.html"><img src="logo.png" alt="Logo"></a>
+        </div>
+        <div class="footer-menu">
+          <ul>
+            <a href="index.html" class="navlink"><li>ALEIX CORRES</li></a>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/AleixCorres" target="blank"><i class="fab fa-github"></i></a>
+        </div>
+      </footer>
+
+</html>

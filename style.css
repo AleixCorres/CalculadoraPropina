@@ -1,0 +1,138 @@
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+    padding-top: 150px;
+}
+
+/*home*/
+
+body{
+    margin: 0;
+    background-color: #fff;
+    font-family: verdana;
+}
+
+.backgroundSlide{
+    background-image: url(banner.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.home hr{
+    width:75px;
+    border-top: 3px solid #fff;
+    text-align: left;
+    margin-left: 0;
+}
+
+footer {
+    background-color: #302F2E;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.footer-logo img {
+    height: 40px;
+}
+  
+.footer-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+.footer-menu li {
+    margin-right: 20px;
+}
+  
+.footer-menu li:last-child {
+    margin-right: 0;
+}
+  
+.footer-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+  
+  .footer-social {
+    display: flex;
+}
+  
+.footer-social a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+  
+.fab {
+    display: inline-block;
+    vertical-align: middle;
+}
+.row{
+    text-align: right;
+    max-width: 40%;
+    margin: 0 25% 0 25%;
+}
+form{
+    padding-top: 30px;
+}
+button{
+    width: 100%;
+}
+
+input {
+    width: 45%;
+    padding: 5px;
+}
+select#serviceQualification {
+    width: 47%;
+    padding: 5px;
+}
+
+
+.row2{
+    text-align: center;
+    max-width: 40%;
+    margin: 0 25% 0 25%;
+}
+.row2 {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.row2 h2 {
+    margin-right: 10px; /* Agrega un margen a la derecha del h2 para separarlo del párrafo */
+}
+.row {
+    display: flex;
+    align-items: baseline; /* Align items at their baselines */
+    max-width: 40%;
+    margin: 0 25% 0 25%;
+}
+
+label {
+    flex: 1;
+    text-align: left;
+    padding-right: 10px;
+}
+
+input, select#serviceQualification {
+    flex: 1.5;
+    padding: 5px;
+}
+
+button {
+    width: 100%;
+    background-color: #302F2E;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
